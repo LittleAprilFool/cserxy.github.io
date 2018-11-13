@@ -1,0 +1,39 @@
+@import 'variable';
+
+.intro{
+  margin-top: 40px;
+}
+
+.eduitem{
+  display: flex;
+}
+
+.edu {
+  margin-left: 10px;
+}
+
+.date {
+  width: 200px;
+}
+
+.edu-title{
+  margin-bottom: 15px;
+  margin-top: 50px;
+  font-family: lato, sans-serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: $primary-highlight; 
+}
+
+.eduitem .title{
+  width: 400px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+.educontent .con{
+  font-weight: !important regular;
+}
+
+.educontent{
+  margin-bottom: 10px;
+}

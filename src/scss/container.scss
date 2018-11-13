@@ -1,0 +1,76 @@
+@import 'personal';
+@import 'about';
+@import 'publication';
+@import 'neat/neat/';
+@import 'media';
+
+.container {
+  position: relative;
+  height: 100%;
+  overflow: hidden;
+  @include grid-collapse;
+}
+
+
+
+.menu{
+  @include grid-column;
+  @include grid-collapse;
+  height: 50px;
+}
+
+.content-container {
+  @include grid-column;
+  @include grid-collapse;
+  // @include grid-visual;
+  overflow: scroll;
+  height: 95%;
+}
+
+.one-container {
+  @include grid-column;
+}
+
+.personal-container {
+  @include grid-column(4);
+
+  @include grid-media($mobile-grid){
+    @include grid-column;
+  }
+}
+
+.inside {
+  @include grid-media($mobile-grid){
+    padding:50px;
+  }
+}
+
+.intro-container {
+  @include grid-column(8);
+  @include grid-container;
+  overflow:scroll;
+  height:100%;
+
+  @include grid-media($mobile-grid){
+    @include grid-column;
+    @include grid-container;
+  }
+}
+
+.right {
+  @include grid-column(10);
+  @include grid-media($mobile-grid){
+    @include grid-column;
+    @include grid-container;
+  }
+}
+
+.footer {
+  background: $primary-highlight;
+  width:calc(100% + 40px);
+  position:fixed;
+  bottom:0px;
+  // @include grid-column;
+  // @include grid-collapse;
+  height: 30px;
+}

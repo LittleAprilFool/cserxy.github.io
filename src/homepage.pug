@@ -1,0 +1,49 @@
+div.container
+    div.menu
+        ul.nav
+            li#nav0 HOME
+            li#nav1                 
+                a(target='_blank' href='/assets/cv-general.pdf') CV
+
+
+    div.content-container
+        div.personal-container
+            div.personal
+                .info
+                    div#avadiv
+                        img(src="../assets/profile.jpg", id="avatar")
+                    p.name #{data.content[0].name}
+                    p.edu #{data.content[0].education}
+                    p.affli !{data.content[0].affiliation}   
+                .icons
+                    a(href='mailto:ruochenj@sfu.ca')
+                        <i class="fa fa-envelope"></i>
+                    a(target="_blank" href='https://github.com/VHUCXAONG')
+                        <i class="fab fa-github"></i>
+        div.intro-container
+            section.right.home#sec0
+                .intro.inside
+                    p.title !{data.content[0].meat[0].h}
+                    p.text !{data.content[0].meat[0].p}
+                .education.inside
+                    p.edu-title !{data.content[0].meat[1].h}
+                    each edu in data.content[0].meat[1].p
+                        .eduitem
+                            .date !{edu.date}
+                            .educontent
+                                .title !{edu.title}
+                                each con in edu.content
+                                    .con !{con}
+            section.right.publication#sec1
+                .inside
+                    p.title !{data.content[1].name}
+                    each item in data.content[1].content
+                        div.paper-item
+                            div.image
+                                img(src=item.image)
+                            div.right
+                                div.title !{item.title}
+                                div.venue !{item.venue}
+                                div.con !{item.content}
+    div.footer
+        h1#small © Ruochen Jiang 2018
