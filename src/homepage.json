@@ -62,6 +62,12 @@
                     "image": "https://www.sfu.ca/~ruochenj/assets/reprowd.jpeg",
                     "venue": "HCOMP 2016 WIP / <a href='http://www.sfu.ca/~ruochenj/files/papers/Reprowd.pdf' target='_blank'>Paper</a> / <a href='http://sfu-db.github.io/reprowd/' target='_blank'>Project</a>",
                     "content": "We present REPROWD, a system aiming to make it easy to reproduce crowdsourced data processing research. A key innovative aspect of the system is the CrowdData abstraction, which maps a crowdsourcing experiment to manipulations of a tabular dataset."
+                },
+                {
+                    "title": "Towards Extracting Highlights From Recorded Live Videos: An Implicit Crowdsourcing Approach",
+                    "venue": "Technical Report 2019 / <a href='http://www.sfu.ca/~ruochenj/files/papers/Lightor_paper.pdf' target='_blank'>Paper</a> / <a href='https://ruochenj.com/channels/highlights' target='_blank'>Project</a>",
+                    "image": "https://www.sfu.ca/~ruochenj/assets/lightor.jpeg",
+                    "content": "Lightor is a system for extracting highlights from live streaming videos using implicit crowdsourcing"
                 }
             ]
         }]
