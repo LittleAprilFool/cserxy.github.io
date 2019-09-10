@@ -1,10 +1,10 @@
 {
-    "name": "Ruochen" ,
-    "title": "RUOCHEN JIANG" ,
+    "name": "Zhuofeng" ,
+    "title": "ZHUOFENG WU" ,
     "menu": ["ABOUT", "PROJECT", "MORE", "CONTACT"] ,
     "content": [
         {
-            "name": "Ruochen Jiang",
+            "name": "Zhuofeng Wu",
             "education": "Thesis-based Master Student",
             "affiliation": "Simon Fraser University<br> <a href='http://www.cs.sfu.ca/~jnwang/' target='_blank'>Database System Lab</a> ",
             "location": "Vancouver, Canada",
