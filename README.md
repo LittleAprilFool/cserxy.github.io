@@ -1,7 +1,3 @@
-# homepage-jrc
+# homepage
 
-蒋哥的个人主页
-
-https://www.sfu.ca/~ruochenj/
-
-❤️
+My personal webpage
