@@ -59,7 +59,7 @@
                     "title": "Identify Shifts of Word Semantics through Bayesian Surprise",
                     "image": "https://github.com/CSerxy/cserxy.github.io/tree/master/assets/case_study_deep.pdf",
                     "venue": "SIGIR 2018 / <a href='https://dl.acm.org/citation.cfm?id=3210040' target='_blank'>Paper</a> / <a href='https://github.com/CSerxy/IdentifyShifts' target='_blank'>Code</a>",
-                    "content": "We present REPROWD, a system aiming to make it easy to reproduce crowdsourced data processing research. A key innovative aspect of the system is the CrowdData abstraction, which maps a crowdsourcing experiment to manipulations of a tabular dataset."
+                    "content": "We present a novel computational method to model the evolution of word semantics. Distinct from existing approaches that learn word embeddings independently from time periods and then align them, our method explicitly establishes the stable topological structure of word semantics and identifies the surprising changes in the semantic space over time through a principled statistical method."
                 }
             ]
         }]
