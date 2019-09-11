@@ -10,8 +10,8 @@
             "location": "Ann Arbor, USA",
             "meat": [
                 {
-                    "h": "Research Interests",
-                    "p": "My research insterests lie primarily in the fields of crowdsourcing, data management and database system. My recent work is about developing <strong>human-in-the-loop data management systems and tools</strong> that people are willing to use for extracting value from data. I am also interested in <strong>big data systems and techniques</strong>. Currently I am a thesis-based master student advised by <a href='http://www.cs.sfu.ca/~jnwang/' target='_blank'>Prof. Jiannan Wang</a> in the Database System Lab, Simon Fraser University."
+                    "h": "About me",
+                    "p": "I am a Ph.D. student at the School of Information at the University of Michigan, advised by Professor Qiaozhu Mei and Professor Daniel Romero."
                 },
                 {
                     "h": "Education",
@@ -56,16 +56,10 @@
             "name": "Project",
             "content": [
                 {
-                    "title": "Reprowd: Crowdsourced DataProcessing Made Reproducible",
-                    "image": "https://www.sfu.ca/~ruochenj/assets/reprowd.jpeg",
-                    "venue": "HCOMP 2016 WIP / <a href='http://www.sfu.ca/~ruochenj/files/papers/Reprowd.pdf' target='_blank'>Paper</a> / <a href='http://sfu-db.github.io/reprowd/' target='_blank'>Project</a>",
+                    "title": "Identify Shifts of Word Semantics through Bayesian Surprise",
+                    "image": "https://github.com/CSerxy/cserxy.github.io/tree/master/assets/case_study_deep.pdf",
+                    "venue": "SIGIR 2018 / <a href='https://dl.acm.org/citation.cfm?id=3210040' target='_blank'>Paper</a> / <a href='https://github.com/CSerxy/IdentifyShifts' target='_blank'>Code</a>",
                     "content": "We present REPROWD, a system aiming to make it easy to reproduce crowdsourced data processing research. A key innovative aspect of the system is the CrowdData abstraction, which maps a crowdsourcing experiment to manipulations of a tabular dataset."
-                },
-                {
-                    "title": "Towards Extracting Highlights From Recorded Live Videos: An Implicit Crowdsourcing Approach",
-                    "venue": "Technical Report 2019 / <a href='http://www.sfu.ca/~ruochenj/files/papers/Lightor_paper.pdf' target='_blank'>Paper</a> / <a href='https://ruochenj.com/channels/highlights' target='_blank'>Project</a>",
-                    "image": "https://www.sfu.ca/~ruochenj/assets/lightor.jpeg",
-                    "content": "Lightor is a system for extracting highlights from live streaming videos using implicit crowdsourcing"
                 }
             ]
         }]
